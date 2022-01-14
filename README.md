@@ -14,7 +14,7 @@ _Sprint challenges open at Midnight PST on Thursday and close at 5pm PST on Frid
 
 ## Introduction
 
-In this challenge, you will add class components to your a basic ecommerce site that allow you to request product data from a server and render that data. You will also implement the ablitity to add products to a shopping cart.
+In this challenge, you will add class components to your a basic ecommerce site that allow you to request product data from a server and render that data. You will also implement the ability to add products to a shopping cart.
 
 In meeting the minimum viable product (MVP) specifications listed below, your project should look like the solution examples below:
 
@@ -25,9 +25,9 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 You will also need to build the two tests in the `CheckoutForm.test.js` file and make sure they are testing what the test title says they are.
 
 ## Project Setup
-* [ ] Run npm install to install your dependencies.
-* [ ] Run npm start to run your frontend and backend code automatically.
-* [ ] Note your backend code will run automatically when your run npm start. There is no need to seperately run a server.js file and no means to test the server through postman or the browser. Feel free to ignore any messages related to MSW or mock service workers.
+* [X] Run npm install to install your dependencies.
+* [X] Run npm start to run your frontend and backend code automatically.
+* [X] Note your backend code will run automatically when your run npm start. There is no need to seperately run a server.js file and no means to test the server through postman or the browser. Feel free to ignore any messages related to MSW or mock service workers.
 
 ## Project Instructions
 
