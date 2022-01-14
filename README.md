@@ -66,9 +66,9 @@ In this project, you will build the retrieve data from a public api, add in a fa
 
   Display a list of the plants from the server. This should be done in the class component `PlantList`. **Unlike other projects, the local server used here can not be accessed through the browser. It is started automatically and without the need for starting a server.js file. Feel free to ignore any messages related to MSW or mock service workers. For this and the rest of your sprint challenges, test the functioning of the server directly through your axios calls.**
 
-* [ ] In the `PlantList` class component, fetch data from the server you now have running - the data can be fetched from `http://localhost:3333/plants.`
-* [ ] Set the data to a state property called `this.state.plants.`
-* [ ] The render function is already built and styled. Once the data is on the state, you will see the list of plants, and you will have the functionality to add a plant to the cart.
+* [X] In the `PlantList` class component, fetch data from the server you now have running - the data can be fetched from `http://localhost:3333/plants.`
+* [X] Set the data to a state property called `this.state.plants.`
+* [X] The render function is already built and styled. Once the data is on the state, you will see the list of plants, and you will have the functionality to add a plant to the cart.
 
 ### Shopping Cart
 
@@ -107,8 +107,8 @@ test("displays plants in cart", () => {
 ```
 
 ## Submission format
-* [ ] Submit via Codegrade by committing and pushing any new changes to **your main branch.**
-* [ ] Check Codegrade before the deadline to compare its results against your local tests.
+* [X] Submit via Codegrade by committing and pushing any new changes to **your main branch.**
+* [X] Check Codegrade before the deadline to compare its results against your local tests.
 * [ ] Check Codegrade on the days following the Sprint Challenge for reviewer feedback. For more information on how to access and read your feedback, check [here](https://www.notion.so/lambdaschool/How-to-View-Feedback-in-CodeGrade-c5147cee220c4044a25de28bcb6bb54a)
 * [ ] New commits will be evaluated by Codegrade if pushed before the sprint challenge deadline.
 
@@ -118,8 +118,17 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. What are the main differences between a class-based and a functional component?
 
-2. When does a componentWillMount function be called? What about a componentDidUpdate?
+    The main difference between a class based component and a functional component is that a class-based component does this, while a functional component does this.
 
+2. When does componentWillMount get called? What about componentDidUpdate?
+
+    A componentWillMount function is called here. Component did update is called here.
+  
 3. Define stateful logic.
+    
+    Stateful logic is this.
 
 4. What are the three step of creating a successful test? What is done in each phase? 
+
+    The three steps of creating a successful test are one, two, and three. in One, one is done. in two, two is done. in three, three is done.
+  
