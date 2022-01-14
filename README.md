@@ -78,9 +78,9 @@ In this project, you will build the retrieve data from a public api, add in a fa
 
   The form is working, but it is currently controlled by local stateful logic. We want to control this form with a custom hook.
 
-* [ ] Build a custom hook called `useForm`, and use it in your CheckoutForm component to control the form's stateful logic. **You do not need to use useLocalStorage to complete this task! localStorage is not necessary for this project. Simply reproduce all functionality for the useForm custom hook to complete.**
+* [X] Build a custom hook called `useForm`, and use it in your CheckoutForm component to control the form's stateful logic. **You do not need to use useLocalStorage to complete this task! localStorage is not necessary for this project. Simply reproduce all functionality for the useForm custom hook to complete.**
 
-* [ ] Try and build it out first before you peek at the guided project. And *do not* copy/paste directly from the guided project!_
+* [X] Try and build it out first before you peek at the guided project. And *do not* copy/paste directly from the guided project!_
 
 ### Testing the Checkout Form
 * [ ] Run the test runner and ensure that `src/components/CheckoutForm.test.js` is correctly called.

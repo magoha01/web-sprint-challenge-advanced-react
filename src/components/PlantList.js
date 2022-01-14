@@ -13,7 +13,7 @@ export default class PlantList extends Component {
     axios.get("http://localhost:3333/plants")
     .then(resp => {
       this.setState({
-        ...this.state,
+        ...this.state.plants,
         plants: resp.data
       })
     }).catch(error => {
@@ -21,7 +21,6 @@ export default class PlantList extends Component {
     });
   }
 
- 
   //   - set the returned plants array to this.state.plants
 
   /*********  DON'T CHANGE ANYTHING IN THE RENDER FUNCTION *********/
