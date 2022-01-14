@@ -24,7 +24,7 @@ const CheckoutForm = (props) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if(e.target.values !== ""){ 
+    if(values.firstName !== "" && values.lasttName !== "" && values.address !== "" && values.city !== "" && values.state !== "" && values.zip !== ""){ 
       setShowSuccessMessage(true);
     }
   };
