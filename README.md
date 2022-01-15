@@ -83,10 +83,10 @@ In this project, you will build the retrieve data from a public api, add in a fa
 * [X] Try and build it out first before you peek at the guided project. And *do not* copy/paste directly from the guided project!_
 
 ### Testing the Checkout Form
-* [ ] Run the test runner and ensure that `src/components/CheckoutForm.test.js` is correctly called.
-* [ ] Fill out code necessary to test that that Checkout form renders without errors.
-* [ ] Fill out code necessary to test that when all form inputs are filled with valid data, a success message appears.
-* [ ] Make sure the tests are passing, and make sure you can cause the tests to fail purposefully, so that you know the tests are truly working.
+* [X] Run the test runner and ensure that `src/components/CheckoutForm.test.js` is correctly called.
+* [X] Fill out code necessary to test that that Checkout form renders without errors.
+* [X] Fill out code necessary to test that when all form inputs are filled with valid data, a success message appears.
+* [X] Make sure the tests are passing, and make sure you can cause the tests to fail purposefully, so that you know the tests are truly working.
 
 ## Important Notes:
 * Again, unlike other projects, the local server used here can not be accessed through the browser. For this and the rest of your sprint challenges, test the functioning of the server directly through your axios calls.
@@ -118,17 +118,24 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. What are the main differences between a class-based and a functional component?
 
-    The main difference between a class based component and a functional component is that a class-based component does this, while a functional component does this.
+    Some differences between a class based component and a functional component are:
+
+         -The class component needs to use a render method to return HTML while a functional component does not.
+         -Class-based components use a JavaScript class and the render method to extend React.Component.Functional components are javascript functions that return JSX.
+
+         - Class components have access to the react lifecyle methods, whereas with functional components you can simply use hooks.
+
+         
 
 2. When does componentWillMount get called? What about componentDidUpdate?
 
-    A componentWillMount function is called here. Component did update is called here.
+    componentWillMount gets called after a successful render method is called (first time only). ComponentDidUpdate is called whenever a component is updated, and elicits a re-render.
   
 3. Define stateful logic.
     
-    Stateful logic is this.
+    Stateful logic describes any functions used in order to control/define the state/behavior of a component(not the display). for example, rendering changes made to the DOM after a form is submitted, or 
 
 4. What are the three step of creating a successful test? What is done in each phase? 
 
-    The three steps of creating a successful test are one, two, and three. in One, one is done. in two, two is done. in three, three is done.
+    The three steps of creating a successful test are arrange, act, and assert. In arrange, you set up your inputs  for the test case. In act, you define the actions that will be taken during the test(ex. a user inputs text, a button is clicked, etc). in assert, you define the expected outcomes, and verifies whether or not you received the desired response(s).
   
